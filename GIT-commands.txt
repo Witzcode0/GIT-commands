@@ -1,0 +1,59 @@
+#---------------#
+#-----G I T-----#
+#---------------#
+
+Create your repository
+> GIT-commands
+Link:https://github.com/Witzcode0/GIT-commands.git
+
+Clone your dir in your local systm
+> git clone https://github.com/Witzcode0/GIT-commands.git
+
+Change dir
+> cd GIT-commands/
+
+List of file
+> ls
+
+Create your file in side your dir
+>  touch hello.py
+ 
+Git add
+> git add hello.py
+> git add . [All things add]
+
+Save your file or dir
+> git commit -m "add hello.py"
+
+Check status
+> git status
+
+Data reflected on GitHub[Push data]
+> git push
+
+Update download for local system
+> git pull
+
+Merge Conflict
+a = 1
+<<<<<HEAD
+b = 2 {Your changes}
+=====
+b = 0 {Remote changes}
+>>>>>7863827822xb7987239237 {Conflicting commit}
+c = 3
+d = 4
+e = 5
+
+See your history
+> git log
+
+get back code
+> git reset --hard <commit>
+> git reset --hard origin/main
+
+Git keeps track of all the diffrent snapshots
+> git reflog 
+
+
+ 
